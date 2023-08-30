@@ -1,0 +1,156 @@
+.Modal__Footer {
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  line-height: 35px;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  background: #2a2a2a;
+  border-top: 1px solid #222222; }
+  .Modal__Footer p {
+    display: inline-block;
+    color: #8b8b8b;
+    font-size: 12px !important; }
+    .Modal__Footer p span {
+      background: #141414;
+      padding: 2px;
+      border-radius: 3px;
+      font-size: 9px; }
+
+.Modal__WatchCoinflip {
+  height: auto;
+  width: 600px; }
+  .Modal__WatchCoinflip .loser > * {
+    opacity: 0.3; }
+  .Modal__WatchCoinflip .winner .User {
+    box-shadow: 0px 0px 4px black; }
+  .Modal__WatchCoinflip .UserDisplay {
+    transition: 0.3s all ease-in; }
+  .Modal__WatchCoinflip .Winner {
+    margin-left: 269px !important;
+    position: relative; }
+    .Modal__WatchCoinflip .Winner img {
+      width: 60px;
+      height: 60px;
+      position: absolute;
+      top: 0;
+      left: 0; }
+    .Modal__WatchCoinflip .Winner p {
+      font-size: 11px;
+      position: absolute;
+      top: 85px;
+      left: -28px; }
+      .Modal__WatchCoinflip .Winner p.Secret {
+        top: 105px;
+        left: -15px; }
+    .Modal__WatchCoinflip .Winner span {
+      font-size: 9px; }
+  .Modal__WatchCoinflip .FlipContainer {
+    perspective: 1000px;
+    display: flex;
+    justify-content: center; }
+    .Modal__WatchCoinflip .FlipContainer .Flipper {
+      transform-style: preserve-3d;
+      position: relative;
+      transition: 0.6s;
+      height: 60px;
+      width: 60px;
+      animation-name: wanimShow;
+      animation-iteration-count: 1;
+      animation-timing-function: ease-out;
+      animation-duration: 4s; }
+    .Modal__WatchCoinflip .FlipContainer .black {
+      background-image: url(../../../static/coin-heads.png); }
+    .Modal__WatchCoinflip .FlipContainer .red {
+      background-image: url(../../../static/coin-tails.png); }
+    .Modal__WatchCoinflip .FlipContainer .Front, .Modal__WatchCoinflip .FlipContainer .Back {
+      height: 60px;
+      width: 60px;
+      background-size: contain;
+      backface-visibility: hidden;
+      position: absolute;
+      top: 0;
+      left: 0; }
+    .Modal__WatchCoinflip .FlipContainer .Front {
+      z-index: 2; }
+    .Modal__WatchCoinflip .FlipContainer .Back {
+      transform: rotateY(180deg); }
+  .Modal__WatchCoinflip .Modal__Content {
+    position: relative; }
+    .Modal__WatchCoinflip .Modal__Content .Status {
+      margin-top: 30px;
+      position: absolute;
+      left: 0;
+      right: 0; }
+      .Modal__WatchCoinflip .Modal__Content .Status div:not(.nomargin) {
+        margin-left: 280px; }
+  .Modal__WatchCoinflip .User {
+    height: 70px;
+    width: 70px;
+    border-radius: 3px;
+    margin-top: 20px; }
+  .Modal__WatchCoinflip .Side {
+    height: 20px;
+    width: 20px;
+    top: 10px;
+    right: 112px;
+    position: absolute; }
+  .Modal__WatchCoinflip p {
+    color: #a1a1a1;
+    font-size: 17px; }
+  .Modal__WatchCoinflip span {
+    background: #1f1f1f;
+    padding: 2px;
+    border-radius: 3px;
+    color: #eee;
+    font-size: 11px; }
+  .Modal__WatchCoinflip .Waiting {
+    height: 30px;
+    border-radius: 5px;
+    background: rgba(19, 19, 19, 0.5);
+    text-align: center;
+    line-height: 30px;
+    color: #ccc8c8;
+    margin: 10px; }
+  .Modal__WatchCoinflip .Items {
+    text-align: left;
+    width: auto;
+    margin: 10px;
+    border-radius: 5px;
+    background: rgba(19, 19, 19, 0.5);
+    margin-bottom: 50px; }
+    .Modal__WatchCoinflip .Items .Center {
+      text-align: center;
+      padding: 5px 0px;
+      color: #ccc8c8; }
+    .Modal__WatchCoinflip .Items .Item:not(:last-child) {
+      border-bottom: 1px solid #947171; }
+    .Modal__WatchCoinflip .Items .Item:not(:first-child) {
+      height: 80px;
+      display: flex; }
+    .Modal__WatchCoinflip .Items .Item {
+      margin: 0px 5px;
+      padding: 8px 0px; }
+      .Modal__WatchCoinflip .Items .Item .Item__Image {
+        height: 65px;
+        width: 65px;
+        margin-right: 10px; }
+      .Modal__WatchCoinflip .Items .Item img {
+        height: 65px;
+        width: 65px; }
+      .Modal__WatchCoinflip .Items .Item p {
+        font-size: 13px;
+        margin: 0; }
+      .Modal__WatchCoinflip .Items .Item span {
+        font-size: 9px; }
+
+@keyframes wanimShow {
+  0% {
+    transform: scale(0.8) rotateX(1440deg); }
+  50% {
+    transform: scale(1.3) rotateX(90deg); }
+  60% {
+    transform: scale(1.3) rotateX(0); }
+  100% {
+    transform: scale(1) rotateX(720deg); } }

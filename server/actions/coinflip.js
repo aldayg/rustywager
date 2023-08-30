@@ -33,7 +33,7 @@ export function checkCoinflipJoinData(data, coinflipGame) {
 function checkCoinflipPrice(data, coinflipGame) {
   const gameTotal = getCoinflipTotal(coinflipGame)
   const itemTotal = getItemTotal(data)
-  return ((gameTotal * 1.05) >= itemTotal) && ((gameTotal * 0.95) <= itemTotal)
+   return ((gameTotal * 1.20) >= itemTotal) && ((gameTotal * 0.80) <= itemTotal)
 }
 
 function getCoinflipTotal(game) {

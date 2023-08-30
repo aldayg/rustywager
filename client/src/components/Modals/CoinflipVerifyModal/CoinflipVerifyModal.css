@@ -1,0 +1,31 @@
+.Modal__VerifyCoinflip {
+  height: auto; }
+
+.Modal__VerifyCoinflip-Content p {
+  padding: 10px 15px;
+  color: #8b8b8b; }
+
+.Modal__VerifyCoinflip-Content a {
+  position: absolute;
+  top: 210px;
+  right: 50px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  width: 100px;
+  border: none;
+  background-color: #6dbe60; }
+
+.Modal__VerifyCoinflip-Content .InputWrapper {
+  text-align: left; }
+  .Modal__VerifyCoinflip-Content .InputWrapper input {
+    background: #cdcdcd !important; }
+  .Modal__VerifyCoinflip-Content .InputWrapper p {
+    display: inline-block;
+    width: 90px; }
+    .Modal__VerifyCoinflip-Content .InputWrapper p span {
+      background: #1c1b1b;
+      color: #d4cfcf;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: bold;
+      border-radius: 3px;
+      padding: 3px; }

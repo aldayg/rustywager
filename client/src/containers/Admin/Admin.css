@@ -1,0 +1,102 @@
+.Admin__OfferItem {
+  padding: 5px;
+  height: 30px;
+  width: 30px; }
+
+.Admin__Offer-Resend {
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #792a2a;
+  padding: 4px 5px;
+  border-radius: 3px;
+  color: #b35858; }
+  .Admin__Offer-Resend:hover {
+    color: #f58f8f; }
+
+.Admin__Header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .Admin__Header .History__Input {
+    margin: 0 20px;
+    width: 300px; }
+  .Admin__Header .dropdown {
+    margin: 0 20px; }
+
+.Admin {
+  width: 70%;
+  margin: 50px auto;
+  background: rgba(22, 22, 22, 0.7);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+  border-radius: 5px !important;
+  border: none !important;
+  border-top: none !important;
+  border-top-left-radius: 0 !important; }
+  .Admin table {
+    width: calc(100% - 40px) !important;
+    margin: 1em 20px !important; }
+    .Admin table .Admin__Withdraw {
+      cursor: pointer;
+      color: black !important;
+      background-color: #b65252;
+      padding: 4px 5px;
+      font-weight: bold;
+      border-radius: 5px; }
+    .Admin table .Admin__Withdraw-Disable {
+      cursor: not-allowed;
+      color: #575757 !important;
+      background-color: #d4a1a1;
+      padding: 4px 5px;
+      border-radius: 5px;
+      font-weight: bold; }
+
+.Admin__RakeItem {
+  height: 40px;
+  width: 40px; }
+
+.Admin__Tab {
+  width: 70%;
+  margin: 50px auto; }
+  .Admin__Tab .menu:not(.pagination) {
+    border-bottom: none !important; }
+    .Admin__Tab .menu:not(.pagination) a {
+      background: rgba(38, 38, 38, 0.7) !important;
+      color: #aaa !important;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+      border-top-right-radius: 3px !important;
+      border-top-left-radius: 3px !important;
+      border-bottom-left-radius: 0px !important;
+      border: none !important; }
+      .Admin__Tab .menu:not(.pagination) a.active {
+        background: rgba(22, 22, 22, 0.7) !important;
+        border: none !important; }
+  .Admin__Tab .Pane {
+    background: rgba(22, 22, 22, 0.7);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+    border-radius: 5px !important;
+    border: none !important;
+    border-top: none !important;
+    border-top-left-radius: 0 !important; }
+  .Admin__Tab table {
+    width: calc(100% - 40px) !important;
+    margin: 1em 20px !important; }
+    .Admin__Tab table .Offer__True {
+      background-color: #5aa45f;
+      padding: 3px 4px;
+      border-radius: 3px;
+      font-weight: bold; }
+    .Admin__Tab table .Offer__False {
+      background-color: #be6a6a;
+      font-weight: bold;
+      padding: 3px 4px;
+      border-radius: 3px; }
+    .Admin__Tab table img {
+      width: 30px;
+      height: 30px;
+      border-radius: 3px; }
+    .Admin__Tab table img.History__GameItem {
+      padding: 5px;
+      height: 40px;
+      width: 40px; }

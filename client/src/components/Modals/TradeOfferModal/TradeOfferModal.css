@@ -1,0 +1,17 @@
+.Modal__TradeOffer {
+  height: 215px;
+  width: 400px; }
+
+.Modal__TradeOffer-Content {
+  color: #939496; }
+  .Modal__TradeOffer-Content p {
+    padding-top: 10px;
+    margin: 0; }
+  .Modal__TradeOffer-Content span {
+    font-size: 11px;
+    background: #1a1a1a;
+    font-weight: bold;
+    padding: 2px 4px;
+    border-radius: 3px; }
+  .Modal__TradeOffer-Content a {
+    background-color: #5c9159; }
