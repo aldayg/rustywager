@@ -9,7 +9,8 @@ config.js
 /coverage
 
 # production
-/build
+*/build
+
 
 # build production css files
 /client/src/**/*.css
