@@ -1,17 +1,18 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
+config.js
 
 # dependencies
 /node_modules
 /client/node_modules
 
 # testing
-#/coverage
+/coverage
 
 # production
-#/build
+/build
 
 # build production css files
-#/client/src/**/*.css
+/client/src/**/*.css
 
 # misc
 dump.rdb
