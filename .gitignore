@@ -4,6 +4,7 @@ config.js
 # dependencies
 /node_modules
 /client/node_modules
+/client/src/static
 
 # testing
 /coverage
